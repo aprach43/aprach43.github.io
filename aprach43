@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>aprach43的个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>罗妙言</h1>
+        <img src="D:\web\2026092714042082photo.jpg.jpg"alt="我的照片" class="avatar">
+
+        <h2>个人介绍</h2>
+        <p>我是一名上外的大一新生，我来自安徽滁州。爱好音乐，会演奏钢琴。</p>
+
+        <h2>兴趣方向</h2>
+        <p>对大数据及认知科学方向感兴趣。</p>
+
+        <p>访问我的喜欢的网站：<a href="https://www.bilibili.com" target="_blank">B站</a></p>
+    </div>
+</body>
+</html>
+body {
+    background-color: #f0f8ff;
+    font-family: "Microsoft Yahei", sans-serif;
+}
+.container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+}
+.avatar {
+    width: 200px;
+    border-radius: 8px;
+}
+a {
+    color: #2266bb;
+}
+a:hover {
+    color: #ff6666;
+}
+h1 {
+    color: #223344;
+}
